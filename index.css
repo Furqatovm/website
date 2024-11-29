@@ -198,6 +198,12 @@ body:hover{
     }
     .second-wrapper{
         gap: 30px;
+        padding-right: 10%;
+        padding-left: 10%;
     }
-
+    .wrapper-all{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
 }
