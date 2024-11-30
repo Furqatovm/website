@@ -116,6 +116,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-color: azure;
 }
 .second-h2{
     text-align: center;
@@ -171,6 +172,7 @@ nav {
 }
 .wrapper-sertifikat:hover{
     background-color: blue;
+    transform: scale(1.2);
 
 }
 .ieltsp:hover{
