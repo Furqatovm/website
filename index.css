@@ -78,7 +78,9 @@ nav {
 .section {
     padding-left: 10%;
     padding-top: 60px;
-    display:flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap-reverse;
     gap: 50px;
     padding-bottom: 40px;
@@ -108,6 +110,13 @@ nav {
     padding-bottom: 40px;
 }
 .second-wrapper{
+    background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.wrp{
     padding-top: 30px;
     padding-right: 10%;
     padding-left: 10%;
@@ -116,10 +125,13 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: azure;
+    gap: 30px;
+   
 }
 .second-h2{
     text-align: center;
+    color: white;
+    font-size: 34px;
 }
 
 .wrapper-a{
@@ -127,18 +139,47 @@ nav {
 }
 .ieltsp{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 .wrapper-sertifikat{
-    background-color: #1DDDBD;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
     border: 2px solid lightgray;
     backdrop-filter: blur(20px);
     padding: 10px 20px;
     border-radius: 10px;
+   
 
+}
+.kodlar{
+    font-size: 22px;
+    color: white;
+}
+.center-child{
+    width: 200px;
+    height: auto;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+.hi{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.forha{
+    margin-top: 50px;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .for-header{
     padding-top: 30px;
@@ -171,7 +212,7 @@ nav {
     color: blue;
 }
 .wrapper-sertifikat:hover{
-    background-color: blue;
+    background-color: transparent;
     transform: scale(1.2);
 
 }
@@ -180,6 +221,19 @@ nav {
 }
 body:hover{
     background-color:;
+}
+.center-child:hover{
+    transform: scale(1.1);
+}
+.kodlar:hover{
+    color: blue;
+}
+.folder:hover{
+    transform: scale(1.1);
+}
+.hi:hover{
+    color: blue;
+    transform: scale(1.1);
 }
 
 @media (max-width: 440px) {
